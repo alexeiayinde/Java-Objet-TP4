@@ -28,8 +28,8 @@ public final class Rectangle extends Forme {
 	}
 
 	@Override
-	public String toString() {
-		return "Forme : Rectangle \n" + super.toString();
+	public String getType() {
+		return "Rectangle";
 	}
 
 }

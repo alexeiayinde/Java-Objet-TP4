@@ -22,8 +22,8 @@ public final class Carre extends Forme {
 	}
 
 	@Override
-	public String toString() {
-		return "Forme : Carré \n" + super.toString();
+	public String getType() {
+		return "Carré";
 	}
 
 }

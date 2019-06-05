@@ -22,8 +22,8 @@ public final class Cercle extends Forme {
 	}
 
 	@Override
-	public String toString() {
-		return "Forme : Cercle \n" + super.toString();
+	public String getType() {
+		return "Cercle";
 	}
 
 }

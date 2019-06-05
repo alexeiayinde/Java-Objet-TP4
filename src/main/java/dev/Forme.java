@@ -14,6 +14,8 @@ public abstract class Forme {
 
 	public abstract float getPerimetre();
 
+	public abstract String getType();
+
 	public Point getCentre() {
 		return centre;
 	}
@@ -28,6 +30,7 @@ public abstract class Forme {
 
 	@Override
 	public String toString() {
-		return "Aire de la forme : " + this.getAire() + "\nPérimètre de la forme : " + this.getPerimetre() + "\n";
+		return "Forme : " + this.getType() + "\nAire de la forme : " + this.getAire() + "\nPérimètre de la forme : "
+				+ this.getPerimetre() + "\n";
 	}
 }
